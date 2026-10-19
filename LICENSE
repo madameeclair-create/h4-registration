@@ -1,0 +1,12 @@
+Original project contributions
+Copyright (c) 2026 Minghu Wu, Yiming Zhang, Xiang Tu, and Juan Wang.
+All rights reserved. This public distribution does not grant an additional
+license to the original project contributions. A broader open-source license
+may be adopted by the copyright holders in a later release.
+
+MAC-derived portions retain the MIT license and copyright notice of
+Copyright (c) 2023 zhangxy0517, reproduced in third_party/mac/LICENSE.
+This statement does not restrict rights already granted under that license.
+
+Third-party dependencies and benchmark datasets remain subject to their own
+licenses and access terms. See THIRD_PARTY_NOTICES.md.

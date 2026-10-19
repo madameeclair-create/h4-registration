@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+build/
+outputs/
+data/
+config.local.json
+*.zip
+*.so
+*.dll
+*.exe
+*.pdb
+.DS_Store

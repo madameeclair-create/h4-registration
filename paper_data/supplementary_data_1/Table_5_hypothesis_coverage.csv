@@ -1,0 +1,8 @@
+﻿Setting / stage,FPFH3DMatch,FPFH3DLoMatch,FCGF3DMatch,FCGF3DLoMatch
+Original pool(before refinement),96.43,75.52,98.52,91.35
+Conventional Top16(before refinement),87.92,49.97,95.07,67.10
+Diversity-selected Top16(before refinement),89.34,51.88,95.75,71.59
+Conventional Top16(after refinement),87.06,48.40,94.33,64.40
+Diversity-selected Top16(after refinement),88.42,50.08,95.26,68.56
+MAC actual RR,83.43,40.65,93.53,59.52
+Our actual RR,87.00,45.42,94.27,62.94

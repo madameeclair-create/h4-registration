@@ -1,0 +1,8 @@
+{
+  "3DMatch/fpfh": 1623,
+  "3DLoMatch/fpfh": 1781,
+  "3DMatch/fcgf": 1623,
+  "3DLoMatch/fcgf": 1781,
+  "KITTI/fpfh": 555,
+  "KITTI/fcgf": 555
+}

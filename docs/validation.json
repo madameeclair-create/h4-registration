@@ -1,0 +1,96 @@
+{
+  "source_build": {
+    "success": true,
+    "platform": "Windows Python 3.11.9 + Ubuntu 24.04 WSL",
+    "PCL": "1.14.0",
+    "igraph": "0.10.10",
+    "programs": 7
+  },
+  "python_versions": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "open3d": "0.20.0"
+  },
+  "synthetic_tests": {
+    "passed": 6,
+    "failed": 0
+  },
+  "main_smoke": {
+    "cases": 6,
+    "execution_failures": 0,
+    "checks": [
+      {
+        "dataset": "3DMatch",
+        "descriptor": "fpfh",
+        "case_id": "00000",
+        "candidate_id": "4054",
+        "pose_max_abs_diff_from_frozen": 0.0,
+        "registration_success": true,
+        "execution_completed": true
+      },
+      {
+        "dataset": "3DMatch",
+        "descriptor": "fcgf",
+        "case_id": "03404",
+        "candidate_id": "2889",
+        "pose_max_abs_diff_from_frozen": 0.0,
+        "registration_success": true,
+        "execution_completed": true
+      },
+      {
+        "dataset": "3DLoMatch",
+        "descriptor": "fpfh",
+        "case_id": "00506",
+        "candidate_id": "3677",
+        "pose_max_abs_diff_from_frozen": 0.0,
+        "registration_success": true,
+        "execution_completed": true
+      },
+      {
+        "dataset": "3DLoMatch",
+        "descriptor": "fcgf",
+        "case_id": "03910",
+        "candidate_id": "3792",
+        "pose_max_abs_diff_from_frozen": 0.0,
+        "registration_success": false,
+        "execution_completed": true
+      },
+      {
+        "dataset": "KITTI",
+        "descriptor": "fpfh",
+        "case_id": "fpfh_0000",
+        "candidate_id": "2561",
+        "pose_max_abs_diff_from_frozen": 0.0,
+        "registration_success": true,
+        "execution_completed": true
+      },
+      {
+        "dataset": "KITTI",
+        "descriptor": "fcgf",
+        "case_id": "fcgf_0000",
+        "candidate_id": "367",
+        "pose_max_abs_diff_from_frozen": 0.0,
+        "registration_success": true,
+        "execution_completed": true
+      }
+    ],
+    "note": "One low-overlap case is a registration failure, as in the frozen run; it is not an execution failure."
+  },
+  "cached_analysis": {
+    "cases": 6,
+    "ablation_records": 54,
+    "full_and_single_scale_selection_equivalence": true
+  },
+  "timing_smoke": {
+    "scenes_per_descriptor": 1,
+    "input_sizes": [
+      250
+    ],
+    "repetitions": 2,
+    "timed_runs": 4,
+    "repeat_equivalence_passed": true,
+    "not_manuscript_full_timing_run": true
+  },
+  "full_benchmark_rerun_of_release": false,
+  "native_linux_only_run": false
+}

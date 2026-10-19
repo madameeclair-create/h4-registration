@@ -1,0 +1,72 @@
+{
+  "MAC_upstream": "https://github.com/zhangxy0517/3D-Registration-with-Maximal-Cliques",
+  "MAC_checkout": "b0d19635c4c9d69399397495d02422eda94248c2",
+  "release_adaptation": [
+    {
+      "source": "core_indoor.py",
+      "source_sha256": "d4195a1237536a868c760003185b9e61e88fa3a31504ed5c9ec041a70edd0bff",
+      "published": "h4_registration/core_indoor.py",
+      "unchanged_algorithm_functions": [
+        "decode_cache",
+        "preprocess",
+        "harmonic",
+        "geometry"
+      ],
+      "run_change": "native subprocess launcher only; retired setup removed"
+    },
+    {
+      "source": "core_kitti.py",
+      "source_sha256": "69a82e0a12b49d582d6154328722ce835c6f56c59f0e197b580dc8761bdac12b",
+      "published": "h4_registration/core_kitti.py",
+      "unchanged_algorithm_functions": [
+        "decode_cache",
+        "preprocess",
+        "harmonic",
+        "geometry"
+      ],
+      "run_change": "native subprocess launcher only; retired setup removed"
+    },
+    {
+      "source": "control_indoor.cpp",
+      "source_sha256": "075a9a2d5f2a3a24806b2ed7fa77dad9598b95bc4fbfc919dfca55d572807adb",
+      "published": "cpp/control_indoor.cpp",
+      "changes": "comments and documentation paths only"
+    },
+    {
+      "source": "control_kitti.cpp",
+      "source_sha256": "0164f89a8057d8f58d497e00b9d9d514054475f8117ee3d2d7f69bc512f21bd3",
+      "published": "cpp/control_kitti.cpp",
+      "changes": "comments and documentation paths only"
+    },
+    {
+      "source": "PCR_provenance.cpp",
+      "source_sha256": "64c75fba18a23733bed4fcc810a02f8768d7359b0ada538d2f4d426b176cb5de",
+      "published": "cpp/PCR_provenance.cpp",
+      "changes": "comments and documentation paths only"
+    },
+    {
+      "source": "producer.cpp",
+      "source_sha256": "850faaef985e511c01ebab2177b6b57ad6ec18b37a3cfbd15468af6fc1ba20d8",
+      "published": "cpp/producer.cpp",
+      "changes": "comments and documentation paths only"
+    },
+    {
+      "source": "registration_initialized.cpp",
+      "source_sha256": "16f3d21ffbc67d1f5988c6a7fabb90f743940fe58cee6bfba74372c198a2a0a8",
+      "published": "cpp/registration_initialized.cpp",
+      "changes": "comments and documentation paths only"
+    },
+    {
+      "source": "weighted_refine_indoor.cpp",
+      "source_sha256": "1a2853a0c9bf801c591cfa704106b17de856f96ff567c24ec076f4e2948d3efd",
+      "published": "cpp/weighted_refine_indoor.cpp",
+      "changes": "comments and documentation paths only"
+    },
+    {
+      "source": "weighted_refine_kitti.cpp",
+      "source_sha256": "ca3113ba46bbfc9445f85883ecea666272b252126a84ba426fbdd95cdeb4bfb3",
+      "published": "cpp/weighted_refine_kitti.cpp",
+      "changes": "comments and documentation paths only"
+    }
+  ]
+}

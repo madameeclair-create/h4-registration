@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript and the MAC frontend when using this research code."
+type: software
+title: "Point Cloud Registration via Action-Space Diversity of Pose Hypotheses and Multiscale Geometric Evaluation"
+version: 0.1.0
+authors:
+  - family-names: Wu
+    given-names: Minghu
+  - family-names: Zhang
+    given-names: Yiming
+  - family-names: Tu
+    given-names: Xiang
+  - family-names: Wang
+    given-names: Juan
+abstract: "Research implementation combining MAC pose hypotheses with action-space diversity and multiscale whole-cloud geometric evaluation."
+keywords:
+  - point cloud registration
+  - maximal cliques
+  - pose hypotheses
+  - multiscale geometry
+repository-code: "https://github.com/madameeclair-create/h4-registration"
+url: "https://github.com/madameeclair-create/h4-registration"

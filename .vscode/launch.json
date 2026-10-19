@@ -1,0 +1,8 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {"name":"Check environment","type":"debugpy","request":"launch","program":"${workspaceFolder}/run.py","args":["--check"],"console":"integratedTerminal"},
+    {"name":"Six-pair demo","type":"debugpy","request":"launch","program":"${workspaceFolder}/run.py","args":["--per-group","1"],"console":"integratedTerminal"},
+    {"name":"Full paper benchmark","type":"debugpy","request":"launch","program":"${workspaceFolder}/run.py","console":"integratedTerminal"}
+  ]
+}
